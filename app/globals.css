@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #3e2723;
+  --color-brand-beige: #f5ebe0;
+  --color-brand-light: #fffdf5;
+  --color-brand-primary: #a67c52;
+  --color-brand-accent: #d4af37;
+  --color-brand-whatsapp: #25d366;
+}
+
+:root {
+  --foreground-rgb: rgb(62, 39, 35); /* brand-dark */
+  --background-rgb: rgb(255, 253, 245); /* brand-light */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: "Inter", sans-serif;
+}
+
+/* The below can be deleted */
