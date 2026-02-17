@@ -6,12 +6,12 @@ import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen">
       <Hero></Hero>
       <Features></Features>
       <Categories></Categories>
       <BestSellers></BestSellers>
       <Reviews></Reviews>
-    </>
+    </main>
   );
 }

@@ -20,7 +20,7 @@ const Navbar = () => {
           href="/"
           className="text-2xl font-serif font-bold text-brand-dark tracking-tighter"
         >
-          LUXE<span className="text-brand-primary">WIGS</span>
+          D<span className="text-brand-primary">HAIRS</span>
         </Link>
 
         {/* Desktop Links */}
